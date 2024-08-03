@@ -22,3 +22,12 @@ Python program that computes the net amount of a bank account based on a transac
 --Finally, it prints the net balance
 
 This ensures that the transactions are processed correctly and that withdrawals are only allowed if sufficient funds are available
+
+4.Software and hardware requirement:
+64-bit Linux/Unix/Ubuntu Operating Systems, python3 
+•  Memory (RAM):
+--Minimum: 1 GB (for basic script execution)
+--Recommended: 2 GB or more (to comfortably run the script along with other applications)
+•  Storage:
+--Minimum: 100 MB (to install Python and any required libraries)
+--Recommended: 1 GB or more (to store multiple projects and related files)
