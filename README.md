@@ -48,3 +48,14 @@ This ensures that the transactions are processed correctly and that withdrawals 
 •  Input and Output:
 --Input: Reads a single line of input from the user.
 --Print: Outputs the final balance to the user.
+
+6.Algorithm:
+• Deposit (amount, balance):
+1.Enter the amount to be deposited
+2.Add entered amount in current balance
+3.Display updated balance
+• Withdrawal (amount, balance):
+1.Enter the amount to be withdrawn
+2.Check if entered amount is greater than balance then display message insufficient balance
+3.Else subtract entered amount from current balance
+4.Display Updated Balance
