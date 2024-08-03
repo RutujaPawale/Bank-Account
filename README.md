@@ -59,3 +59,6 @@ This ensures that the transactions are processed correctly and that withdrawals 
 2.Check if entered amount is greater than balance then display message insufficient balance
 3.Else subtract entered amount from current balance
 4.Display Updated Balance
+
+8.Conclusion:
+To Understand the concept of list and function. The program successfully handles a series of deposits and withdrawals, accurately computing the net balance while ensuring withdrawals do not result in a negative balance. This exercise illustrates the importance of structured programming and error handling in creating robust and reliable applications.
