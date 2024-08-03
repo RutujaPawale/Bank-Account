@@ -31,3 +31,20 @@ This ensures that the transactions are processed correctly and that withdrawals 
 •  Storage:
 --Minimum: 100 MB (to install Python and any required libraries)
 --Recommended: 1 GB or more (to store multiple projects and related files)
+
+
+5.Theory:
+•  Variables and Data Types:
+--Balance: This variable stores the current balance of the bank account, initialized to 0.
+--Transactions: This variable holds the list of transaction strings, split from the input.
+•  Functions:
+--Deposit: This function takes the current balance and an amount to deposit. It returns the new balance after adding the deposit amount.
+--Withdraw: This function takes the current balance and an amount to withdraw. It checks if the balance is sufficient for the withdrawal and returns the new balance if the withdrawal is successful. If not, it returns the original balance and prints an error message.
+•  Control Structures:
+--if-else statements: Used to determine whether a transaction is a deposit or withdrawal, and to handle invalid transaction types.
+--for loop: Iterates through each transaction in the input list to process them sequentially.
+•  String Manipulation:
+--split: Used to divide the input string into individual transactions and further split each transaction into its action and amount components.
+•  Input and Output:
+--Input: Reads a single line of input from the user.
+--Print: Outputs the final balance to the user.
