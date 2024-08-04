@@ -46,3 +46,5 @@ print("\n1. Check Balance")
 print("2. Deposit cash")
 print("3. Withdraw Cash")
 print("4. Exit")
+
+repeat()
