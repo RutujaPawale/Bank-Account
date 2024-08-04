@@ -20,3 +20,19 @@ def cashWithdraw():
         balance =balance-with_amt
         print(with_amt,"withdrawn successfully!!\n",balanceInquiry())
     repeat()
+
+def repeat():
+    num =int(input("Enter your choice:"))
+    str(num).strip()
+
+    if num == 1:
+        balanceInquiry()
+    elif num == 2:
+        cashDeposit()
+    elif num == 3:
+        cashWithdraw()
+    elif num == 4:
+        print("Thank you !!")
+        exit()
+    else:
+        print("Invalid Input!")
