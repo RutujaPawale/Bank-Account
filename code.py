@@ -36,3 +36,13 @@ def repeat():
         exit()
     else:
         print("Invalid Input!")
+
+balance=5000
+
+print("\t \t",30*'*')
+print("\t \t \tWelcome to SBI ATM")
+print("\t \t",30*'*')
+print("\n1. Check Balance")
+print("2. Deposit cash")
+print("3. Withdraw Cash")
+print("4. Exit")
