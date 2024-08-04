@@ -10,3 +10,13 @@ def cashDeposit():
     print("Cash deposited successfully!! \n")
     balanceInquiry()
     repeat()
+
+def cashWithdraw():
+    global balance
+    with_amt=int(input("Enter the amount you want to withdraw:"))
+    if with_amt>balance:
+        print("Insufficient balance!!\n")
+    else:
+        balance =balance-with_amt
+        print(with_amt,"withdrawn successfully!!\n",balanceInquiry())
+    repeat()
